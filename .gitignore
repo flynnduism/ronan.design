@@ -1,5 +1,5 @@
 .tmp
 .DS_Store
 .sass-cache/
-.vuepress/dist/
+.cache/
 node_modules/
