@@ -1,8 +1,16 @@
+/*
+/ Ronan.Design
+*/
+
+
+// dependencies
+
 @import './node_modules/normalize.css/normalize';
 @import './node_modules/bulma/bulma';
 
 
-// color
+// colors
+
 $front: #C15247;
 $back: #F2C495;
 
@@ -102,6 +110,9 @@ article {
     }
   }
 }
+
+
+// responsive
 
 @media screen and (max-width: 1023px) {
   article {
