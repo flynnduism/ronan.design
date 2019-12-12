@@ -1,5 +1,6 @@
 .tmp
 .DS_Store
 .sass-cache/
+.dist/
 .cache/
 node_modules/
