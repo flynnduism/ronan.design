@@ -7439,6 +7439,7 @@ article {
     font-size: 1.667vw; }
   article a {
     position: relative;
+    display: inline-block;
     transition: all 0.3s ease-in-out; }
     article a:hover {
       color: #C15247; }
@@ -7450,12 +7451,11 @@ article {
       width: 2em;
       height: 2em;
       left: 50%;
-      margin: -2em 0 0 -1em;
+      margin: -1.75em 0 0 -1em;
       opacity: 0.08;
       transition: all 0.3s ease-in-out; }
     article a.hilite:hover:after {
-      margin-top: -1.85em;
-      opacity: 0.75; }
+      opacity: 0.5; }
     article a.personal:after {
       background-color: #50E3C2; }
     article a.job:after {
