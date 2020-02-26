@@ -111,6 +111,17 @@ article {
   }
 }
 
+footer {
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw;
+
+  a {
+    padding: 2vw 1vw;
+    opacity: 0.2;
+  }
+}
+
 
 // responsive
 

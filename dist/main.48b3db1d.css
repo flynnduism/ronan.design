@@ -7463,6 +7463,14 @@ article {
     article a.oss:after {
       background-color: #D3DDF7; }
 
+footer {
+  position: absolute;
+  bottom: 1vw;
+  right: 1vw; }
+  footer a {
+    padding: 2vw 1vw;
+    opacity: 0.2; }
+
 @media screen and (max-width: 1023px) {
   article {
     margin-left: auto;
