@@ -5,6 +5,9 @@
   "repository": "git@github.com:flynnduism/ronan.design.git",
   "author": "flynnduism <flynnduism@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=12"
+  },
   "dependencies": {
     "bulma": "^0.9.3",
     "normalize.css": "^8.0.1",
@@ -14,8 +17,5 @@
   "devDependencies": {
     "marked": "^3.0.2",
     "sass": "^1.38.1"
-  },
-  "engines": {
-    "node": ">=12"
   }
 }
