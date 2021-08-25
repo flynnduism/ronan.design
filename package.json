@@ -14,5 +14,8 @@
   "devDependencies": {
     "marked": "^3.0.2",
     "sass": "^1.38.1"
+  },
+  "engines": {
+    "node": ">=12"
   }
 }
