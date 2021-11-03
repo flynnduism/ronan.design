@@ -1,7 +1,7 @@
 {
   "name": "ronan.design",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "repository": "git@github.com:flynnduism/ronan.design.git",
   "author": "flynnduism <flynnduism@gmail.com>",
   "license": "MIT",
