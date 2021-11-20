@@ -1,6 +1,7 @@
 .tmp
 .DS_Store
 .sass-cache/
-.dist/
+.parcel-cache/
 .cache/
+dist/
 node_modules/
