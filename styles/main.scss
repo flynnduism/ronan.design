@@ -52,6 +52,8 @@ body {
 
 .wrap {
   min-height: 100vh;
+  margin-bottom: 0;
+  overflow: hidden;
 }
 
 article {
@@ -69,6 +71,7 @@ article {
 
   p {
     font-size: 1.667vw;
+    padding-right: 2vw;
   }
 
   a {
@@ -111,10 +114,63 @@ article {
   }
 }
 
+#sidebar {
+  height: 100vh;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  overflow-y: scroll;
+
+  .panel {
+    box-shadow: none;
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    max-width: 28.5%;
+    background: white;
+    box-shadow: inset 1px 1px 3px 0 rgba(0,0,0,0.05);
+  }
+
+  dl {
+    padding: 4rem 2.5vw 3rem;
+    margin-left: 1vw;
+  }
+
+  dt {
+    font-size: 1.667vw;
+  }
+
+  dd {
+    margin-bottom: 4rem;
+    font-size: 1vw;
+    position: relative;
+    opacity: 0.5;
+    padding: 0.5rem 1rem 0 0;
+    line-height: 1.33;
+    @include transition;
+
+    em {
+      position: absolute;
+      top: -4.25rem;
+      font-style: normal;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    &:hover {
+      opacity: 1;
+
+    }
+  }
+}
+
 footer {
   position: absolute;
   bottom: 1vw;
-  right: 1vw;
+  left: 1vw;
 
   a {
     padding: 2vw 1vw;
@@ -141,6 +197,32 @@ footer {
 
     p {
       font-size: 1.5rem;
+    }
+  }
+
+  #sidebar {
+    min-height: auto;
+    height: auto;
+    padding: 0;
+    
+    .panel {
+      position: relative;
+      top: auto;
+      right: auto;
+      max-width: 100%;
+      height: auto;
+      overflow: visible;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #sidebar {
+    .panel {
+      position: relative;
+      top: auto;
+      right: auto;
+      max-width: 100%;
     }
   }
 }
