@@ -8,14 +8,13 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@parcel/transformer-sass": "^2.5.0",
     "bulma": "^0.9.4",
     "normalize.css": "^8.0.1",
-    "npm-check-updates": "^13.0.3",
-    "parcel": "^2.5.0"
+    "parcel": "^2.6.2"
   },
   "devDependencies": {
-    "marked": "^4.0.16",
-    "sass": "^1.52.1"
+    "@parcel/transformer-sass": "2.6.2",
+    "marked": "^4.0.17",
+    "sass": "^1.53.0"
   }
 }
