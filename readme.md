@@ -1,19 +1,57 @@
-![ronan](https://user-images.githubusercontent.com/686194/70673827-ca89db80-1c38-11ea-8573-642ab0375b88.gif)
+<div align="center">
+  <h1>Fermyon Spin</h1>
+  <img src="./docs/static/image/logo.png" width="300"/>
+  <p>Spin is a framework for building, deploying, and running fast, secure, and composable cloud microservices with WebAssembly.</p>
+      <a href="https://github.com/fermyon/spin/actions/workflows/build.yml"><img src="https://github.com/fermyon/spin/actions/workflows/build.yml/badge.svg" alt="build status" /></a>
+      <a href="https://discord.gg/eGN8saYqCk"><img alt="Discord" src="https://img.shields.io/discord/926888690310053918?label=Discord"></a>
+</div>
 
+> This is an early preview of the Spin project. It is still experimental code,
+> and you should expect breaking changes before the first stable release.
 
-A simple webpage about myself.
+## What is Spin?
 
-###### Notes
+Spin is an open source framework for building and running fast, secure, and
+composable cloud microservices with WebAssembly. It aims to be the easiest way
+to get started with WebAssembly microservices, and takes advantage of the latest
+developments in the
+[WebAssembly component model](https://github.com/WebAssembly/component-model)
+and [Wasmtime](https://wasmtime.dev/) runtime.
+
+Spin offers a simple CLI that helps you create, distribute, and execute
+applications, and in the next sections we will learn more about Spin
+applications and how to get started.
+
+## Getting started
+
+See the [quickstart document](https://developer.fermyon.com/spin/quickstart/) for a detailed
+guide on configuring Spin and writing your first Spin application, but in short:
 
 ```
-  1 image
-  7 requests
- 65 kilobytes
-129 words
-  0 nonsense
+$ wget https://github.com/fermyon/spin/releases/download/<version>/spin-<version>-<os-arch>.tar.gz
+$ tar xfv spin-<version>-<os-arch>.tar.gz
+$ ./spin --help
 ```
 
-###### Dev
+> Alternatively, you could [build Spin from source](https://developer.fermyon.com/spin/contributing/).
 
-Install with `yarn` and compile with `parcel build index.html`.
-Deployed to [![Netlify Status](https://api.netlify.com/api/v1/badges/d337da08-71b3-446e-a1f8-fc2b9ed5fd4f/deploy-status)](https://app.netlify.com/sites/ronan-design-2020/deploys) via ✨ 
+After you follow the [quickstart document](https://developer.fermyon.com/spin/quickstart/),
+you can follow the
+[Rust](https://developer.fermyon.com/spin/rust-components/) or [Go](https://developer.fermyon.com/spin/go-components/)
+language guides, and the [guide on configuring Spin applications](https://developer.fermyon.com/spin/configuration/).
+
+After you build your application, run it using Spin:
+
+```
+$ spin up
+```
+
+## Contributing
+
+We are delighted that you are interested in making Spin better! Thank you!
+Please follow the [contributing guide](https://developer.fermyon.com/spin/contributing).
+And join our [Discord server](https://discord.gg/eGN8saYqCk).
+
+## Developer Meetings
+
+Join the Spin monthly developer meetings, which will be announced in our [Discord server](https://discord.gg/eGN8saYqCk).
