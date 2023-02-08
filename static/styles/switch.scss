@@ -27,15 +27,18 @@ label:after {
   transition: 0.3s;
 }
 
-input:checked + label {
-  background: #bada55;
-}
+input[type=checkbox]:checked + #main {
+  label {
+    background: #bada55;
+  }
 
-input:checked + label:after {
-  left: calc(100% - 2px);
-  transform: translateX(-100%);
-}
+  label:after {
+    left: calc(100% - 2px);
+    transform: translateX(-100%);
+  }
 
-label:active:after {
-  width: 32px;
+  label:active:after {
+    width: 32px;
+  }
+
 }
