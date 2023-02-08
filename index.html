@@ -15,8 +15,19 @@
 </head>
 
 <body>
-  <div class="columns is-mobile wrap is-vcentered">
-    <div class="column is-full-mobile is-full-tablet is-three-quarters-desktop">
+
+  <section class="is-hidden-tablet mobile-switch">
+    <div class="field">
+      <span>Story mode</span>
+      <label for="switch"></label>
+      <span>List mode</span>
+    </div>
+  </section>
+  <input type="checkbox" id="switch" />
+
+  <div class="columns is-mobile wrap is-vcentered" id="main">
+
+    <div class="column is-full-mobile is-full-tablet is-three-quarters-desktop" id="article">
       <article>
         <h1>
           <svg viewBox="0 0 236 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

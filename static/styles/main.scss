@@ -7,6 +7,7 @@
 
 @import './node_modules/normalize.css/normalize';
 @import './node_modules/bulma/bulma';
+@import './switch.scss';
 
 
 // colors
@@ -48,10 +49,11 @@ body {
   min-height: 100%;
   height: 100%;
   background: #f4f4eb;
+  overflow-x: hidden;
 }
 
 .wrap {
-  min-height: 100vh;
+  min-height: 100%;
   margin-bottom: 0;
   overflow: hidden;
 }
@@ -149,7 +151,6 @@ article {
     opacity: 0.5;
     padding: 0.5rem 1rem 0 0;
     line-height: 1.33;
-    @include transition;
 
     em {
       position: absolute;
@@ -192,21 +193,25 @@ footer {
 // responsive
 
 @media screen and (max-width: 1023px) {
+  body {
+    overflow-y: scroll;
+  }
   article {
     margin-left: auto;
     margin-right: auto;
     max-width: 86vw;
+    padding-bottom: 12rem;
 
     h1 {
-      margin: 3.333rem 0;
+      margin: 3.333rem 0.5rem;
 
-      img {
-        max-height: 1.5rem;
+      img, svg {
+        min-height: 1.5rem;
       }
     }
 
     p {
-      font-size: 1.5rem;
+      font-size: 1.333rem;
     }
   }
 
@@ -222,6 +227,74 @@ footer {
       max-width: 100%;
       height: auto;
       overflow: visible;
+    }
+  }
+
+  section.mobile-switch {
+    position: fixed;
+    background: white;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1200;
+    height: 4.33rem;
+    text-align: center;
+    line-height: 1;
+    border-top: 1px solid rgba(0,0,0,0.1);
+
+    label {
+      margin: 1.3rem auto 0;
+    }
+
+    span {
+      position: absolute;
+      display: inline-block;
+      font-size: 1rem;
+      top: 1.625rem;
+
+      &:first-of-type {
+          left: 50%;
+          margin-left: -8.5rem;
+          text-align: right;
+      }
+      &:last-of-type {
+        left: auto;
+        right: 50%;
+        margin-left: 0;
+        margin-right: -8rem;
+        text-align: left;
+      }
+    }
+  }
+
+  input[type=checkbox]:checked + #main {
+
+    #article {
+      display: none !important;
+    }
+    #sidebar {
+      display: flex !important;
+
+      dl {
+        margin: 0 auto;
+        // max-width: 86vw;
+        padding: 4rem 7vw 3rem;
+      }
+
+      dt {
+        font-size: 1.67rem;
+      }
+      dd {
+        font-size: 1rem;
+        opacity: 1;
+        line-height: 1.636;
+
+        em {
+          top: -4rem;
+          opacity: 0.67;
+          font-size: 0.825rem;
+        }
+      }
     }
   }
 }
