@@ -1,4 +1,4 @@
-name = "ronandotdesign"
+name = "ronan.design"
 spin_version = "1"
 version = "0.1.0"
 description = "The tiny personal site of Ronan Flynn-Curran."
@@ -25,3 +25,11 @@ files = [ { source = "static/images/", destination = "/" } ]
 [component.trigger]
 route = "/favicon.ico"
 executor = { type = "wagi" }
+
+[[component]]
+source = { url = "https://github.com/radu-matei/spin-kv-explorer/releases/download/v0.4.0/spin-kv-explorer.wasm", digest = "sha256:28e03705e6458d2270dac4889520b38ad3347d71d4a173de24fae83cc961e656" }
+id = "kv-explorer"
+# add or remove stores you want to explore here
+key_value_stores = ["default"]
+[component.trigger]
+route = "/internal/kv-explorer/..."
