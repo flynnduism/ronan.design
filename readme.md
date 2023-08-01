@@ -7,12 +7,12 @@ A simple webpage about myself.
 
 ```
   1 image
-  7 requests
- 65 kilobytes
-129 words
+ 12 requests
   0 nonsense
 ```
 
 ###### Dev
 
-Deployed to ![Fermyon](https://cloud.fermyon.com) via [Spin](https://github.com/fermyon/spin). ✨ 
+[![fermyon-badge](https://github.com/flynnduism/ronan.design/assets/686194/5991134d-0077-4082-99bc-c257902def58)]((https://cloud.fermyon.com))
+
+The site html is compiled to a `.wasm` binary with [Spin](https://github.com/fermyon/spin) and runs for free on [Fermyon Cloud](https://cloud.fermyon.com).
