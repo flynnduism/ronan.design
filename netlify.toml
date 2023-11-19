@@ -1,3 +1,8 @@
 [build]
 publish = "dist"
 command = "parcel build index.html"
+
+[[redirects]]
+  from = "/forty"
+  to = "https://app.formbricks.com/s/clp0d9klc04phqs0ftf6p698z"
+  status = 302
