@@ -3,6 +3,16 @@ publish = "dist"
 command = "parcel build index.html"
 
 [[redirects]]
+  from = "/"
+  to = "/index.html"
+  status = 301
+
+[[redirects]]
   from = "/forty"
   to = "https://app.formbricks.com/s/clp0d9klc04phqs0ftf6p698z"
   status = 302
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
