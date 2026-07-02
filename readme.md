@@ -7,13 +7,12 @@ A simple webpage about myself.
 
 ```
   1 image
-  7 requests
- 65 kilobytes
-129 words
+ 12 requests
   0 nonsense
 ```
 
 ###### Dev
 
-Install with `yarn` and compile with `parcel build index.html`.
-Deployed to [![Netlify Status](https://api.netlify.com/api/v1/badges/d337da08-71b3-446e-a1f8-fc2b9ed5fd4f/deploy-status)](https://app.netlify.com/sites/ronan-design-2020/deploys) via ✨ 
+[![fermyon-badge](https://github.com/flynnduism/ronan.design/assets/686194/5991134d-0077-4082-99bc-c257902def58)]((https://cloud.fermyon.com))
+
+The site html is compiled to a `.wasm` binary with [Spin](https://github.com/fermyon/spin) and runs for free on [Fermyon Cloud](https://cloud.fermyon.com).
