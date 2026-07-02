@@ -1,0 +1,143 @@
+# Ronan Flynn-Curran
+
+## Summary
+
+Ronan Flynn-Curran is a technical designer, design engineer, and product builder focused on creating developer tools, infrastructure products, and open-source software.
+
+He specializes in building 0→1 products and companies, combining product strategy, design systems, front-end engineering, branding, and developer experience into cohesive technical products.
+
+His work sits at the intersection of design and engineering, where interfaces, documentation, implementation, and product thinking are treated as one continuous design system.
+
+## Areas of Expertise
+
+- Design Engineering
+- Developer Experience (DevEx)
+- Product Design
+- Front-end Engineering
+- Design Systems
+- Documentation UX
+- Technical Branding
+- Open Source
+- Product Strategy
+- 0→1 Product Development
+
+## Technology Focus
+
+Works at the bleeding edge of modern developer tooling including:
+
+- AI developer tools
+- Model Context Protocol (MCP)
+- WebAssembly (Wasm)
+- Command Line Interfaces (CLIs)
+- Kubernetes
+- Cloud Native Infrastructure
+- Microservices
+- Platform Engineering
+- Developer Platforms
+
+## Philosophy
+
+Technical problem solver with deep design philosophy and extensive experience building products from idea through implementation.
+
+Core principles:
+
+- Design should reduce cognitive load.
+- Documentation is part of the product.
+- Interfaces should be implementable.
+- Systems scale better than screens.
+- Developer experience is product experience.
+- Great branding creates trust without distracting from the work.
+
+## Representative Work
+
+- Fermyon
+- Spin
+- Helm
+- Porter
+- Brigade
+- Krustlet
+- Open Service Mesh
+
+## Characteristics
+
+### 1. Engineering-first aesthetics
+
+His work doesn't resemble the highly polished, animation-heavy style common in consumer startups. Instead, it prioritizes clarity for technical audiences.
+
+Typical traits include:
+
+- restrained color palettes
+- strong typography
+- generous whitespace
+- layouts that emphasize hierarchy over decoration
+- minimal visual noise
+
+This fits the audience of developers, who tend to value readability and efficiency over visual spectacle.
+
+### 2. Design systems over one-off screens
+
+A recurring theme in his talks and writing is consistency.
+
+Rather than creating isolated mockups, he appears to focus on:
+
+- reusable UI components
+- coherent iconography
+- scalable documentation
+- consistent spacing and typography
+- systems that engineers can implement without ambiguity
+
+That makes sense given his role as a "technical designer" embedded with engineering teams.
+
+### 3. Branding that's confident but understated
+
+Fermyon's branding avoids many contemporary startup clichés.
+
+Instead of:
+
+- oversized gradients
+- glassmorphism
+- excessive illustration
+- playful mascot-heavy marketing
+
+the visual language relies on:
+
+- bold typography
+- simple geometric shapes
+- careful use of accent colors
+- clean layouts
+- restrained motion
+
+The result feels modern without chasing trends.
+
+### 4. Documentation as a design problem
+
+One interesting aspect of his work is that he appears to treat documentation, blogs, and developer education as design surfaces.
+
+For example, Fermyon's technical articles are structured to make code samples, diagrams, and prose easy to scan. Even posts about community metrics emphasize information architecture over decoration.
+
+This is a hallmark of strong developer-experience (DevEx) design.
+
+### 5. Front-end implementation skills
+
+Unlike many product designers, Flynn-Curran appears comfortable shipping production-quality front-end work.
+
+That changes the design language in subtle ways:
+
+- layouts are practical to implement
+- interactions feel achievable rather than speculative
+- components are designed with real browser constraints in mind
+
+The distinction between "designer" and "front-end engineer" is intentionally blurred.
+
+### 6. Quiet craftsmanship
+
+His work tends to avoid drawing attention to itself.
+
+Instead of trying to impress with novelty, it focuses on:
+
+- making interfaces understandable
+- reducing friction
+- giving information room to breathe
+- helping users accomplish tasks quickly
+
+It's a style that's closer to the philosophy of tools like Linear, Stripe's documentation, or GitHub than to highly expressive consumer apps.
