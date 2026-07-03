@@ -1,6 +1,6 @@
 [build]
 publish = "dist"
-command = "parcel build index.html 404.html && cp llms.txt dist/"
+command = "parcel build index.html 404.html resume.html && cp llms.txt dist/ && cp resume.md dist/"
 
 [[redirects]]
   from = "/"
@@ -11,6 +11,11 @@ command = "parcel build index.html 404.html && cp llms.txt dist/"
   from = "/forty"
   to = "https://app.formbricks.com/s/clp0d9klc04phqs0ftf6p698z"
   status = 302
+
+[[redirects]]
+  from = "/resume"
+  to = "/resume.html"
+  status = 200
 
 [[redirects]]
   from = "/*"
