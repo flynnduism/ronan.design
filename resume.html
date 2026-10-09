@@ -6,6 +6,9 @@
   <title>Ronan Flynn-Curran — Résumé</title>
   <meta name="description" content="Résumé of Ronan Flynn-Curran — Product Designer for teams building technical tools." />
   <link rel="canonical" href="https://ronan.design/resume" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400..700&display=swap" rel="stylesheet">
   <style>
     :root {
       --bg: #f6f6f2;
@@ -14,6 +17,8 @@
       --accent: #b4531f;
       --rule: #d9d9d0;
       --sel: #ffe9b0;
+      --mono: "SF Mono", ui-monospace, Monaco, "Inconsolata", "Fira Mono", "Droid Sans Mono", monospace;
+      --sans: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
     }
     @media (prefers-color-scheme: dark) {
       :root {
@@ -31,9 +36,9 @@
       margin: 0;
       background: var(--bg);
       color: var(--fg);
-      font-family: "SFMono-Regular", "SF Mono", ui-monospace, Menlo, Consolas, "Liberation Mono", monospace;
+      font-family: var(--sans);
       font-size: 15px;
-      line-height: 1.6;
+      line-height: 1.5;
       padding: 2.5rem 1.25rem 5rem;
     }
     ::selection { background: var(--sel); }
@@ -48,16 +53,17 @@
       display: flex;
       gap: 1.5rem;
       flex-wrap: wrap;
+      font-family: var(--mono);
     }
 
     h1 {
       font-size: 22px;
-      font-weight: 700;
-      letter-spacing: 0.02em;
+      font-weight: 600;
+      letter-spacing: -0.015em;
       margin: 0 0 0.35rem;
     }
-    .role { margin: 0 0 0.35rem; font-weight: 700; }
-    .contact { color: var(--muted); margin: 0 0 2rem; font-size: 13.5px; }
+    .role { margin: 0 0 0.35rem; font-weight: 500; }
+    .contact { color: var(--muted); margin: 0 0 2rem; font-size: 13.5px; font-family: var(--mono); }
 
     h2 {
       font-size: 13px;
@@ -67,18 +73,24 @@
       margin: 2.5rem 0 0;
       padding-bottom: 0.4rem;
       border-bottom: 1px dashed var(--rule);
+      font-weight: 600;
     }
-    h2::before { content: "## "; color: var(--muted); }
+    h2::before { content: "## "; color: var(--muted); font-family: var(--mono); }
 
     h3 {
       font-size: 15px;
-      font-weight: 700;
+      font-weight: 600;
       margin: 1.6rem 0 0.1rem;
+      letter-spacing: -0.01em;
     }
     h3 .meta { font-weight: 400; color: var(--muted); }
 
-    p { margin: 0.65rem 0; }
-    .summary p { margin: 0.65rem 0; }
+    p { margin: 0.65rem 0; line-height: 1.5; }
+    .summary p {
+      margin: 0.65rem 0;
+      font-weight: 450;
+      letter-spacing: -0.005em;
+    }
 
     ul { margin: 0.65rem 0; padding-left: 0; list-style: none; }
     li { margin: 0.4rem 0; padding-left: 1.4rem; text-indent: -1.4rem; }
