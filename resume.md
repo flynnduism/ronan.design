@@ -6,11 +6,17 @@ hello@ronan.design · [ronan.design](https://ronan.design)
 
 ## Professional Summary
 
-I specialize in developer platforms and workflow, from idea to launch. Versed in DevOps, design systems, AI dev and front-end. I'm highly adaptable, driven and empathetic.
+20 years designing developer tools, APIs and cloud platforms. Founding designer at 3 acquired startups. Ex-Microsoft engineer. Have evolved from designing in Figma to primarily designing with agents + code using Claude Code, Paper.design, custom MCPs etc.
+
+I specialize in developer platforms and workflow, from idea to launch. Versed in DevOps, design systems, AI dev and front-end.
 
 I thrive on building interesting things with others, and am passionate about eliminating user friction, accelerating workflows, and enhancing developer efficiency. With 10+ years in DevX and cloud-native platforms, I've led design teams to build and launch technical products, and contributed to the launch and growth of open-source tools adopted by thousands of engineering teams and orgs.
 
 ## Experience
+
+### Independent — Design Engineer, AI tooling · 2026–present
+
+Creating new builder tools at nanlabs.xyz to fill some of the gaps in the emerging agentic design toolchain.
 
 ### Head of Design — Fermyon · 2021–2025 *(acquired)*
 
