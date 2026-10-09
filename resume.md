@@ -6,7 +6,7 @@ hello@ronan.design · [ronan.design](https://ronan.design)
 
 ## Professional Summary
 
-20 years designing developer tools, APIs and cloud platforms. Founding designer at 3 acquired startups. Ex-Microsoft engineer. Have evolved from designing in Figma to primarily designing with agents + code using Claude Code, Paper.design, Conductor, custom MCPs etc.
+20 years designing developer tools, APIs and cloud platforms. Founding designer at 3 acquired startups. Ex-Microsoft engineer. Have evolved from designing in Figma to primarily designing with agents + code using Claude Code, Paper.design, custom MCPs etc.
 
 I specialize in developer platforms and workflow, from idea to launch. Versed in DevOps, design systems, AI dev and front-end.
 
